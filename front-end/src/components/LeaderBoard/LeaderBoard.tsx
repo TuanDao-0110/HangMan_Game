@@ -71,7 +71,7 @@ const LeaderBoard = () => {
             const { name, score, timestamp } = data;
             return (
               <tr key={index} className={classes.table_row}>
-                <td>{index}</td>
+                <td>{index + 1}</td>
                 <td>{name}</td>
                 {/* <td>{renderDate(timestamp)} :</td> */}
                 <td>{score}</td>
