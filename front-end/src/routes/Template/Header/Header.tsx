@@ -1,7 +1,7 @@
+import { useContext } from "react";
 import { Container, Nav, Navbar, Row } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
-import { useContext } from "react";
 import { AuthContext } from "../../../context/auth-context";
 
 /* import classes from "./header.module.css"; */
@@ -28,7 +28,7 @@ export const Header: React.FC = () => {
               </LinkContainer>
             </Nav>
           </Navbar.Collapse>
-          {currentUser && <Button onClick={() => signOut()}>Logout</Button>}
+          {currentUser && <Button onClick={() => signOut()}>LogOut</Button>}
         </Container>
       </Navbar>
     </Row>
