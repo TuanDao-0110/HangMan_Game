@@ -61,7 +61,7 @@ const LeaderBoard = () => {
       <table className={classes.leaderboard}>
         <thead>
           <tr className={classes.table_header}>
-            <th></th>
+            <th>Rank</th>
             <th>Name</th>
             <th>Score</th>
           </tr>
